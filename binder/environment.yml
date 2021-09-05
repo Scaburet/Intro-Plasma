@@ -1,13 +1,18 @@
-name: L3MEG-GH-TP1-essai
+name: intro_plasma
 channels:
+  - defaults
   - conda-forge
   - bioconda
   
 dependencies:
-  - jupyterlab=2
+  - jupyterlab>=3
   - nbresuse
   - python>=3.7
   - pip
   - nodejs
+  - r-irkernel
+  - r-base>=3.6
+  - r-tidyverse
   - pip:
     - bash_kernel
+
